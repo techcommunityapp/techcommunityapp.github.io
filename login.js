@@ -105,7 +105,7 @@ function recoverPass(){
     firebase.auth().languageCode = 'es';
 
     if(emailAddress == ""){
-        alert('Escribe por favor sólo el correo');
+        alert('Escribe por favor sólo el correo y presiona otra vez ¿Olvido contraseña?');
     }else {
 
         auth.sendPasswordResetEmail(emailAddress).then(function () {
