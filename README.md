@@ -1,2 +1,5 @@
 # techcommunityapp.github.io
-App Tech Community registro y login de usuarios
+App Tech Community
+Registro de usuarios nuevos
+Login de usuarios existentes
+Recuperación de contraseña
